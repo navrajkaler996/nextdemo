@@ -7,7 +7,7 @@ export default function Home() {
   const clickContext = useContext(ClickContext);
 
   const clickHandler = () => {
-    clickContext.incrementValue(clickContext.value + 1);
+    clickContext.incrementValue(clickContext.value + 2);
   };
 
   return (
