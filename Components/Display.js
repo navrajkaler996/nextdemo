@@ -9,6 +9,7 @@ const Display = () => {
       <h3>This is a change</h3>
       <h3 style={{ color: green }}>This is another change</h3>
       <p>Hello World!</p>
+      <p>Hello World!</p>
     </div>
   );
 };
