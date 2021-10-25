@@ -7,9 +7,6 @@ const Display = () => {
     <div>
       <h1>Button clicked {clickContext.value} times</h1>
       <h3>This is a change</h3>
-      <h3 style={{ color: green }}>This is another change</h3>
-      <p>Hello Everyone!</p>
-      <p>Hello World!</p>
     </div>
   );
 };
