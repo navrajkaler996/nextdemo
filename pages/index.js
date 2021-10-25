@@ -15,6 +15,7 @@ export default function Home() {
       <button onClick={clickHandler}>Click</button>
       <h2>{clickContext.value}</h2>
       <hr />
+      <h2>This is Display component</h2>
       <Display />
     </div>
   );
