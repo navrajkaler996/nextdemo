@@ -1,7 +1,12 @@
-import '../styles/globals.css'
+import { ClickContextProvider } from "../store/click-context";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <ClickContextProvider>
+      <Component {...pageProps} />
+    </ClickContextProvider>
+  );
 }
 
-export default MyApp
+export default MyApp;
