@@ -6,7 +6,7 @@ const Display = () => {
   return (
     <div>
       <h1>Button clicked {clickContext.value} times</h1>
-      <h3>This is a change</h3>
+      <h3>This is a modified change</h3>
     </div>
   );
 };
